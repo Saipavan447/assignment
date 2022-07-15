@@ -1,0 +1,21 @@
+.setting-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.button {
+  background-color: #0967d2;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid #0967d2;
+  margin: 5px;
+}
+
+.button-container {
+  flex-direction: row;
+}

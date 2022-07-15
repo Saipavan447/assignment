@@ -4,13 +4,11 @@ import './index.css'
 const Home = () => (
   <div className="home-container">
     <h1 className="heading">Home</h1>
-    <ul className="nav-items-list">
-      <li className="link-item">
-        <Link className="route-link" to="/setting">
-          update App
-        </Link>
-      </li>
-    </ul>
+    <Link className="route-link" to="/setting">
+      <button type="button" className="update-button">
+        Update App
+      </button>
+    </Link>
   </div>
 )
 export default Home

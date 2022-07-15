@@ -1,6 +1,16 @@
 .home-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  margin-top: 200px;
+}
+.update-button {
+  background-color: #0967d2;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid #0967d2;
 }

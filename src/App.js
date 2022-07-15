@@ -8,7 +8,7 @@ import './App.css'
 const App = () => (
   <div className="app-container">
     <Switch>
-      <Route exact path="/home" component={Home} />
+      <Route exact path="/" component={Home} />
       <Route exact path="/setting" component={Setting} />
     </Switch>
   </div>
